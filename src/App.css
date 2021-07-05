@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -18,16 +20,49 @@ form {
 }
 
 .todo-form-input {
-    background-color: #c5c6d0;
-    margin-right: 2rem;
+    background-color: #333333;
+    border: 1px solid #c5c6d0;
     padding: .3rem;
     width: 15rem;
+    transition: all .5s ease-in;
+}
+
+.todo-form-input:focus {
+    background-color: #c5c6d0;
 }
 
 .todo-form-btn {
+    width: 7rem;
+    cursor: pointer;
+    background: none;
+    border: 1px solid #c5c6d0;
+    color: #c5c6d0;
+    font-family: 'Zen Loop';
+    font-size: 3rem;
+    font-weight: 600;
+   position: relative;
+   transition: all .5s;
+}
+
+
+.todo-form-btn:hover {
+    background-color: #c5c6d0;
+    color: #333333;
+}
+
+
+.todo-form-filter {
+   background: none;
+   padding-left: 1rem;
+   margin-left: 1rem;
+   border: 1px solid #c5c6d0;
+    width: 5rem;
+    height: 3rem;
+    text-align: center;
+    transition: all .5s ease-in;
+}
+
+.todo-form-filter:focus {
     background-color: #c5c6d0;
 }
 
-.todo-form-filter {
-    background-color: #c5c6d0;
-}
