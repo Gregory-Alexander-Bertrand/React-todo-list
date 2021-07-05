@@ -14,11 +14,20 @@
 }
 
 form {
-    border: 5px solid whitesmoke;
     display: flex;
 }
 
 .todo-form-input {
-    border: 5px solid rosybrown;
+    background-color: #c5c6d0;
     margin-right: 2rem;
+    padding: .3rem;
+    width: 15rem;
+}
+
+.todo-form-btn {
+    background-color: #c5c6d0;
+}
+
+.todo-form-filter {
+    background-color: #c5c6d0;
 }
