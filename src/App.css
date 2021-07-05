@@ -67,9 +67,37 @@ form {
 }
 
 .todo {
-    border: 1px solid saddlebrown;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+}
+
+.todo-item {
+    background-color: #c5c6d0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+    width: 10rem;
+    height: 2.5rem;
+    text-align: center;
+    list-style-type: none;
+    animation: fadeIn linear 2s;
+    -webkit-animation: fadeIn linear 2s;
+}
+
+
+.todo-btn {
+    animation: fadeIn linear 2s;
+    -webkit-animation: fadeIn linear 2s;
+}
+
+.todo-btn-2 {
+    animation: fadeIn linear 2s;
+    -webkit-animation: fadeIn linear 2s;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }
