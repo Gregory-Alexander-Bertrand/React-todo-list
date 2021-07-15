@@ -86,6 +86,10 @@ form {
     -webkit-animation: fadeIn linear 2s;
 }
 
+.finished {
+    text-decoration: line-through;
+}
+
 
 .todo-btn {
     animation: fadeIn linear 2s;
